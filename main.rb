@@ -15,7 +15,7 @@ def reconhecer_lista(lista)
   urls = /\bhttps?:\/\/[a-zA-Z][a-zA-Z0-9.-]+\.[a-zA-Z]{2,}\/?[^\s]*\b/
   emails = /\b([A-Za-z][A-Za-z0-9.\-_]+@[A-Za-z]{2,}\.[A-Za-z]{2,}(\.[A-Za-z]{2,})?)\b/
   acoes = /\b([Aa]gendar|[Mm]arcar|[Ll]igar|[Aa]grupar|[Pp]lanejar|[Oo]rganizar|[Cc]onversar|[Dd]iscutir|[Ee]ncontrar|[Rr]eunião|[Rr]evisar)\s+[A-Za-zÀ-ÿ]*\s*(com|e|ou|para)\b/
-  pessoas = /\b(com|e|ou)\s+([A-Za-zÀ-ÿ]+)\b/
+  pessoas = /\b(com|e|ou|para)\s+([A-Z][A-Za-zÀ-ÿ]+)\b/
 
   resultado = ""
   hoje = Date.today
