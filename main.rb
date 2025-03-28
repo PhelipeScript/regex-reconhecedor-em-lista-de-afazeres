@@ -47,10 +47,10 @@ end
 listas_tarefas = [
   "Agendar com Maria reunião às 14:00 hoje #trabalho maria-da-silva@hotmail.com",
   "Marcar com João revisão do projeto às 16:30 amanhã #revisao #projeto",
-  "Reunião com equipe de design às 09:00 quarta-feira #trabalho",
-  "Reunião com equipe técnica às 10:00 13 de agosto de 2021 #projeto",
-  "Agendar entrevista com candidato às 14:30 terça #RH #entrevista",
-  "Revisar contrato com jurídico às 10:00 depois de amanhã #legal https://empresa.com/contrato juridico@legal.com",
+  "Reunião com Jorge da equipe de design às 09:00 quarta-feira #trabalho",
+  "Reunião com Henrique da equipe técnica às 10:00 13 de agosto de 2021 #projeto",
+  "Agendar entrevista com Antonio às 14:30 terça #RH #entrevista",
+  "Revisar contrato com Marcos do jurídico às 10:00 depois de amanhã #legal https://empresa.com/contrato juridico@legal.com",
 ]
 
 reconhecer_lista(listas_tarefas)
